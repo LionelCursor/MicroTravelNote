@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/Common/src/main/java/com/cursor/common/template/activity/TabsActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Common/src/main/java/com/cursor/common/template/activity/toolbar/ToolbarActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Common/src/main/java/com/cursor/common/template/fragment/recycler/BaseListFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Common/src/main/java/com/cursor/common/template/fragment/viewpager/ViewPagerFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Common/src/main/java/com/cursor/common/widget/recyclerview/OnScrollBottomListener.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Common/src/main/java/com/cursor/common/widget/tabgroup/BaseTabView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Common/src/main/java/com/cursor/common/widget/tabgroup/OnTabSelectedObserver.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/build.gradle" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/ldx/microtravelnotes/ui/fragment/NewArticleFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/ldx/microtravelnotes/ui/view/MainListView.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/layout_toolbar_square"
+        android:paddingRight="@dimen/toolbar_tab_internal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/layout_toolbar_text_square"
+            style="@style/TextAppearance.Toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/square"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_toolbar_liked"
+        android:layout_toRightOf="@id/layout_toolbar_square"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/layout_toolbar_text_liked"
+            style="@style/TextAppearance.Toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/liked"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="RtlHardcoded"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/activity_detail_toolbar_left"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        style="@style/TextAppearance.Toolbar.Side"
+         />
+    <TextView
+        android:id="@+id/activity_detail_toolbar_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="@string/share"
+        style="@style/TextAppearance.Toolbar.Side"/>
+    <TextView
+        android:id="@+id/activity_detail_toolbar_mid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/article"
+        style="@style/TextAppearance.Toolbar.Middle"/>
+</RelativeLayout>

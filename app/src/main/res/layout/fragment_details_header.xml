@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="RtlHardcoded">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:background="#fff"
+        android:layout_height="50dp">
+
+        <com.ldx.microtravelnotes.ui.widget.CircleImageView
+            android:id="@+id/fragment_detail_circle_user"
+            android:layout_width="@dimen/detail_user_avatar_length"
+            android:layout_height="@dimen/detail_user_avatar_length"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/fragment_detail_selector"
+            android:padding="30dp" />
+
+        <TextView
+            android:id="@+id/fragment_detail_user_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:text="user_201"
+            android:layout_toRightOf="@id/fragment_detail_circle_user" />
+
+        <TextView
+            android:id="@+id/fragment_detail_header_like"
+            android:padding="5dp"
+            android:textColor="@color/default_liked_red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/fragment_detail_selector"
+            android:text="@string/has_liked"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <ImageView
+            android:id="@+id/fragment_detail_list_image"
+            android:layout_width="match_parent"
+            android:background="@drawable/fragment_detail_selector"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/play"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/fragment_detail_header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="那一户琉璃梦"
+            android:textSize="22sp"
+            />
+        <TextView
+            android:id="@+id/fragment_detail_list_header_subscribe"
+            android:layout_below="@id/fragment_detail_header_title"
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/default_grey"
+            android:maxLines="4"
+            android:ellipsize="end"
+            android:textSize="13sp"
+            android:text="幸福不喜欢喧嚣浮华,常常在暗淡中降临。贫困中相濡以沫的一块糕饼,患难中心心相映的一个眼神,都是幸福。人不是向外奔走才是旅行,静静坐着思维也是旅行,凡是探索..."
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/tags"/>
+        <TextView
+            android:id="@+id/fragment_detail_header_comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#fff"
+            android:textSize="10sp"
+            android:text="10人评论"/>
+    </RelativeLayout>
+</LinearLayout>
