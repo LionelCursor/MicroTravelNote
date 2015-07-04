@@ -20,6 +20,7 @@ import butterknife.ButterKnife;
 import butterknife.InjectView;
 
 public class DetailFragment extends Fragment {
+
     ListView mListView;
 
     //Header
